@@ -1,0 +1,41 @@
+[main]
+(btn)	local game
+(btn)	net game
+(btn)	game settings
+(btn)	quit
+
+[local]
+(btn)	local
+(btn)	net
+(btn)	settings
+(btn)	exit
+
+[net]
+(btn)	create game
+(btn)	connect to game
+
+[create game]
+(txt)	name
+(num)	players count
+(num)	rounds count
+(rad)	speed
+(rad)	arena size
+(rad)	bot level
+(btn)	create
+
+[connect to game]
+(lst)	"name" "settings"
+(btn)	connect
+
+[game settings]
+(lbl)	name
+(lbl)	player / players count
+(lbl)	round / rounds count
+(lbl)	arena size
+(lbl)	bot level
+
+(num)	players count
+(lst)	users
+(lst)	bots
+(btn)	add bot
+(btn)	apply
